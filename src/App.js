@@ -1,5 +1,4 @@
 import React from "react";
-import CustomizedDialogs from "./Components/Dialogs";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Services from "./Components/Services";
@@ -27,7 +26,6 @@ function App() {
       <Testimonials />
       <Contacts />
       <Footer />
-      <CustomizedDialogs />
     </div>
   );
 }

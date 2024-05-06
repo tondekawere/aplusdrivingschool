@@ -1,4 +1,5 @@
 import React from "react";
+import CustomizedDialogs from "./Dialogs";
 import {
   Grid,
   Typography,
@@ -70,21 +71,7 @@ const Hero = () => {
           >
             Learn More
           </Button>
-          <Button
-            variant="contained"
-            size="large"
-            color="error"
-            sx={{
-              mt: 2,
-              width: { xs: "100%", sm: "max-content" },
-              ":hover": {
-                backgroundColor: "#fff",
-                color: "red",
-              },
-            }}
-          >
-            Contact Us
-          </Button>
+          <CustomizedDialogs/>
         </Grid>
       </Grid>
       <Grid

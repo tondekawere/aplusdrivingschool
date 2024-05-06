@@ -26,14 +26,24 @@ export default function CustomizedDialogs() {
   };
 
   return (
-    <React.Fragment >
-      <Button variant="outlined" onClick={handleClickOpen}>
+    <React.Fragment>
+      <Button
+        variant="contained"
+        size="large"
+        color="error"
+        sx={{
+          mt: 2,
+          width: { xs: "100%", sm: "max-content" },
+          ":hover": {
+            backgroundColor: "#fff",
+            color: "red",
+          },
+        }}
+        onClick={handleClickOpen}
+      >
         Contact Us
       </Button>
-      <BootstrapDialog
-        aria-labelledby="customized-dialog-title"
-        open={open}
-      >
+      <BootstrapDialog aria-labelledby="customized-dialog-title" open={open}>
         <IconButton
           aria-label="close"
           onClick={handleClose}
@@ -46,13 +56,7 @@ export default function CustomizedDialogs() {
         >
           <CloseIcon />
         </IconButton>
-        <Contact/>
-
-        {/* <DialogActions>
-          <Button autoFocus onClick={handleClose}>
-            Save changes
-          </Button>
-        </DialogActions> */}
+        <Contact />
       </BootstrapDialog>
     </React.Fragment>
   );
