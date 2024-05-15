@@ -89,10 +89,10 @@ const Services = () => {
           />
           <CardContent>
             <Typography variant="h6" fontWeight={800} component="h2">
-              Get License
+              Easy Learn Driving
             </Typography>
             <Typography paragraph>
-              A driving license is an official document that authorizes.
+              Our course module is very much easy to learn.
             </Typography>
             <Link
               href="/"
@@ -131,10 +131,10 @@ const Services = () => {
           />
           <CardContent>
             <Typography variant="h6" fontWeight={800} component="h2">
-              Get License
+              Traffic Guideline
             </Typography>
             <Typography paragraph>
-              A driving license is an official document that authorizes.
+              We also teach a full and final traffic guideline for you.
             </Typography>
             <Link
               href="/"
@@ -173,10 +173,10 @@ const Services = () => {
           />
           <CardContent>
             <Typography variant="h6" fontWeight={800} component="h2">
-              Get License
+              Video Courses
             </Typography>
             <Typography paragraph>
-              A driving license is an official document that authorizes.
+              Brainstorm words related to confidence, and skill.
             </Typography>
             <Link
               href="/"

@@ -57,7 +57,7 @@ const WhyUs = () => {
             { x: 9, y: 7, label: "Comfort Vehicles" },
             { x: 10, y: 9, label: "Special Classes" },
             { x: 9, y: 11, label: "Flexible Schedule" },
-            { x: 15, y: 11, label: "Driving Practise" },
+            { x: 10, y: 11, label: "Driving Practise" },
           ].map((button, index) => (
             <Card
               key={index}
